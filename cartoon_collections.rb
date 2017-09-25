@@ -30,7 +30,7 @@ def find_the_cheese(array)
   i = cheese_types.size
   output = nil
   while i > 0
-    
+
     if array.include(cheese_types[i-1])
       output = cheese_types[i-1]
     end
